@@ -6,8 +6,7 @@ A scalable **three-tier food ordering system** that supports multiple restaurant
 
 ## 🎥 Demo Video
 
-> 🔗 Add your demo video link here  
-> Example:https://canva.link/e04jkwipkmb24gi
+https://github.com/SadeHarshaVardhan/FULL-STACK-E-COMMERCE-MULTI--TENANT-FOOD-ORDERING-PLATFORM/blob/main/FRONTED%20%26%20BACKEND%20DEVELOPMENT.mp4
 
 ---
 
