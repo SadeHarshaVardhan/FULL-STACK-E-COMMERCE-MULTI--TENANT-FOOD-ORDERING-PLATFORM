@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header1234">
+    <h1>SELLER MANAGEMENT PORTAL</h1>
+</div>
+<div class="container">
+    <div>
+        <h2>Add Tea</h2>
+        <form id="insertForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="file">Image</label>
+                <input type="file" name="file" id="file" accept="image/*" required>
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="number" name="price" id="price" required>
+            </div>
+            <div class="form-group">
+                <label for="det">Details</label>
+                <input type="text" name="det" id="det" required>
+            </div>
+            <button type="submit">Insert</button>
+        </form>
+
+        <h2>Update Tea</h2>
+        <form id="updateForm" class="hidden">
+            <input type="hidden" name="id">
+            <div class="form-group">
+                <label for="update-name">Name</label>
+                <input type="text" name="name" id="update-name" required>
+            </div>
+            <div class="form-group">
+                <label for="update-file">Image</label>
+                <input type="file" name="file" id="update-file" accept="image/*">
+            </div>
+            <div class="form-group">
+                <label for="update-price">Price</label>
+                <input type="number" name="price" id="update-price" required>
+            </div>
+            <div class="form-group">
+                <label for="update-det">Details</label>
+                <input type="text" name="det" id="update-det" required>
+            </div>
+            <button type="submit">Update</button>
+            <button type="button" onclick="cancelUpdate()">Cancel</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>All Teas</h2>
+        <table id="teaTable">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>Details</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
