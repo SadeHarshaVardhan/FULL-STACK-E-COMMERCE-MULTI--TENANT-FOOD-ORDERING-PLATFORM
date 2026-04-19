@@ -15,6 +15,7 @@
 
 [▶️ Watch Complete Project Demo](https://github.com/SadeHarshaVardhan/FULL-STACK-E-COMMERCE-MULTI--TENANT-FOOD-ORDERING-PLATFORM/blob/main/FRONTED%20%26%20BACKEND%20DEVELOPMENT.mp4)
 
+https://canva.link/e04jkwipkmb24gi
 ---
 
 ## 🚀 Overview
