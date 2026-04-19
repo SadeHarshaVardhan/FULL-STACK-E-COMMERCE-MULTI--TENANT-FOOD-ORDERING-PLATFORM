@@ -1,22 +1,25 @@
 # 🍔 Full Stack Multi-Tenant Food Ordering Platform
 
-A scalable **three-tier food ordering system** that supports multiple restaurants (tenants), enabling independent menu management, order handling, and customer interaction via web and mobile platforms.
+<p align="center">
+  <img src="demo.gif" alt="Project Demo" width="850"/>
+</p>
+
+<p align="center">
+  <b>🚀 Three-Tier Multi-Tenant Food Ordering System</b><br>
+  <i>Spring Boot • Oracle DB • Flutter • Seller Portal • Dropbox API</i>
+</p>
 
 ---
 
-## 🎥 Demo Video
+## 🎥 Full Demo Video
 
-https://github.com/SadeHarshaVardhan/FULL-STACK-E-COMMERCE-MULTI--TENANT-FOOD-ORDERING-PLATFORM/blob/main/FRONTED%20%26%20BACKEND%20DEVELOPMENT.mp4
+[▶️ Watch Complete Project Demo](https://github.com/SadeHarshaVardhan/FULL-STACK-E-COMMERCE-MULTI--TENANT-FOOD-ORDERING-PLATFORM/blob/main/FRONTED%20%26%20BACKEND%20DEVELOPMENT.mp4)
 
 ---
 
 ## 🚀 Overview
 
-This project is designed to provide:
-- A **Seller Web Portal** for restaurant owners
-- A **Flutter Mobile App** for customers
-- A **Spring Boot Backend** for business logic
-- An **Oracle Database** for secure data storage
+A scalable **multi-tenant food ordering platform** that enables multiple restaurants to operate independently with dedicated dashboards while providing customers a seamless ordering experience via mobile app.
 
 ---
 
@@ -40,29 +43,28 @@ Data Layer
 
 ### 👨‍🍳 Multi-Tenant Support
 - Multiple restaurants supported  
-- Isolated data per tenant  
-- Independent dashboards  
+- Tenant-specific dashboards  
+- Data isolation for each seller  
 
-### 📱 Customer Mobile App (Flutter)
+### 📱 Customer Mobile App
 - Browse food items  
 - Add to cart  
 - Place orders  
 
 ### 🖥️ Seller Web Portal
-- Add / Update / Delete menu items (CRUD)  
-- Manage orders  
-- Upload product images  
+- CRUD operations for menu  
+- Order management system  
+- Image upload support  
 
 ### 🔐 Backend (Spring Boot)
-- REST APIs  
-- Secure data handling  
-- Scalable architecture  
+- RESTful APIs  
+- Secure and scalable architecture  
 
 ### ☁️ Cloud Integration
-- Dropbox API used for storing menu images  
+- Dropbox API for storing menu images  
 
 ### 🗄️ Database (Oracle)
-- Structured relational schema  
+- Structured schema  
 - Optimized queries  
 
 ---
@@ -80,8 +82,8 @@ Data Layer
 ## 🔄 Workflow
 
 1. Seller logs into portal  
-2. Adds menu items (images stored in Dropbox)  
-3. Customer browses menu via mobile app  
+2. Adds menu items (stored in Dropbox)  
+3. Customer browses via mobile app  
 4. Customer places order  
 5. Order stored in database  
 6. Seller manages orders  
@@ -93,7 +95,7 @@ Data Layer
 
 backend/ → Spring Boot APIs
 frontend/ → Seller Web Portal
-mobile-app/ → Flutter App
+mobile-app/ → Flutter Application
 database/ → SQL Scripts
 
 
